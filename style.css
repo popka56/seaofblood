@@ -101,4 +101,8 @@ footer{
         font-size: 20px;
         padding-bottom: 50px;
     }
+    img{
+        height: 150px; 
+        width: 267px;
+    }
 }
