@@ -1,0 +1,104 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+header{
+    background-color: #101010;
+    color: white;
+    width: 100%;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+header h1{
+    font-size: 40px;
+    margin: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+}
+
+header a:hover{
+    color: yellow;
+}
+
+#downloadMain a:hover{
+    color: yellow;
+}
+
+main{
+    text-align: center;
+    background-color: black;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1) );
+    height: 100vh;
+    color: white;
+    font-size: 2vh;
+    padding: 50px;
+}
+
+#indexMain{
+    font-size: 60px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(61, 0, 0, 0.5) ), url("assets/withering10.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow: hidden;
+    padding-top: 12%;
+}
+
+#indexMain a{
+    background-color: rgb(69, 141, 69);
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+}
+
+#indexMain a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(88, 163, 88);
+}
+
+#aboutIndex{
+    overflow: auto;
+}
+
+#downloadMain{
+    overflow: auto;
+}
+
+footer{
+    background-color: #101010;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+/*Mobile support*/
+@media only screen and (max-width: 765px){
+    #indexMain{
+        font-size: 25px;
+    }
+    #aboutIndex{
+        overflow: scroll;
+    }
+    #downloadMain{
+        overflow: auto;      
+    }
+    main{
+        padding-top: 0px;
+        font-size: 20px;
+        padding-bottom: 50px;
+    }
+}
